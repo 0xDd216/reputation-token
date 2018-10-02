@@ -6,7 +6,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20Basic.sol";
 
 
-contract CurveBondedReputationToken is ReputationToken {
+contract CurveBondedReputationToken is ReputationToken, StandardToken {
   using SafeMath for uint256;
 
   ERC20Basic public backingToken;
@@ -15,8 +15,8 @@ contract CurveBondedReputationToken is ReputationToken {
     return totalSupply_;
   }
 
-  function long(uint256 _amount) public returns (bool);
+  function buy(uint256 _amount) public returns (bool);
 
-  function short(uint256 _amount) public returns (bool);
+  function sell(uint256 _amount) public returns (bool);
 
 }

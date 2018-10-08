@@ -1,0 +1,18 @@
+{
+  "name": "reputation-token",
+  "version": "0.1.0",
+  "description": "A curve-bonded reputation token",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "0xDd216",
+  "license": "ISC",
+  "dependencies": {
+    "bonding-curve": "github:relevant-community/bonding-curve",
+    "openzeppelin-solidity": "^1.12.0"
+  }
+}

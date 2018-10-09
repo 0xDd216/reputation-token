@@ -13,6 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "bonding-curve": "github:relevant-community/bonding-curve",
-    "openzeppelin-solidity": "^1.12.0"
+    "openzeppelin-solidity": "^2.0.0-rc.2"
   }
 }
